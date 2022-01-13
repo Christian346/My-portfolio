@@ -1,0 +1,35 @@
+.contact{
+    height:100%;
+    padding-top:35vh;
+    overflow:hidden;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    background:
+    //goes to the right
+    linear-gradient(
+        to right,
+        rgba($primary-color, 0),
+        rgba($primary-color, 0)
+    ),//second gradient value
+    url('../../images/tech.jpg');
+    background-size: cover;
+    
+   h2{
+       font-size: 2rem;
+       margin-bottom: 2rem;
+   }
+  
+   &_list{
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-gap: 2rem;
+       font-size: 1.2rem;
+   }
+   .social{
+    position: initial;
+    margin-top: 2rem;
+
+}
+}
