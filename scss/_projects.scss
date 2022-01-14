@@ -31,6 +31,7 @@
        display: grid;
        grid-template-columns: 1fr;
        grid-gap:2rem;
+  
    }
    
    
@@ -39,6 +40,8 @@
     border-bottom: 5px solid $secondary-color;
     overflow: hidden;
     cursor:pointer;
+    
+   
 
     img{
         width:100%;
@@ -87,7 +90,12 @@
       &:hover{
           color:set-text-color(set-text-color($secondary-color)); //will make it black
       }
+    
+    
   }
+  &_txt{
+    color:$secondary-color
+}
 
       
    .social{

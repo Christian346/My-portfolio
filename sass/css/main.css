@@ -366,6 +366,10 @@
   color: white;
 }
 
+.projects_txt {
+  color: darkorange;
+}
+
 .projects .social {
   display: -webkit-box;
   display: -ms-flexbox;
